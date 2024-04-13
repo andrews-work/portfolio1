@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Complete: React.FC = () => {
   return (
-    <div className="text-3xl">
-      <h1 className="text-5xl mb-[2vh]">Complete</h1>
+    <div className="text-xl">
+      <h1 className="text-3xl mb-[2vh]">Complete</h1>
       <p>
         <a>
           <Link href="/projects/web-basics/rock-paper-scissors" className="decoration-none hover:underline">

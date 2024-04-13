@@ -39,7 +39,7 @@ const InfoM = () => {
       <div className="w-full p-4">
         <div className="h-[25vh] flex flex-col justify-center">
           <div className="ml-[5vw] mb-[1vh]">
-            <h1 className="font-bold text-black text-xl mb-[1vh]">{info.reviews}</h1>
+            <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.reviews}</h1>
             <h4 className="text-xl">{info.first}</h4>
             <h4 className="text-xl">{info.second}</h4>
           </div>
