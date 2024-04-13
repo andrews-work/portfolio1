@@ -21,7 +21,7 @@ const Gallery = () => {
       <div className="flex-col w-full h-[70vh] flex items-center justify-center">
         {/* title */}
         <div className="w-[83vw] h-[5vh]">
-          <h1 className="text-5xl">{currentImage.title}</h1>
+          <h1 className="text-3xl">{currentImage.title}</h1>
         </div>
         {/* image */}
         <div className="flex w-[95vw]">
@@ -49,7 +49,7 @@ const Gallery = () => {
           </div>
         </div>
         {/* buttons */}
-        <div className="flex w-full justify-center mt-[3vh] text-5xl">
+        <div className="flex w-full justify-center mt-[3vh] text-3xl">
           <button className="mr-[1vw]" onClick={handlePreviousClick}>Previous</button>
           <button className="ml-[1vw]" onClick={handleNextClick}>Next</button>
         </div>

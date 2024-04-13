@@ -12,7 +12,7 @@ const Display: React.FC<DisplayProps> = ({ image, version }) => {
       <div className="h-[80vh] w-[75vw] relative">
         <Image src={image} alt="Project" layout="fill" objectFit="contain" />
       </div>
-      <div className="h-[10vh] w-[75vw] border-t border-black flex items-center justify-center text-3xl">
+      <div className="h-[10vh] w-[75vw] border-t border-black flex items-center justify-center text-xl">
         <p>{version}</p>
       </div>
     </div>
