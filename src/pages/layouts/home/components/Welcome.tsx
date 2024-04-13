@@ -8,11 +8,11 @@ const Welcome = () => {
       <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className="text-5xl text-black">{welcome.title}</h1>
+            <h1 className="text-3xl text-black">{welcome.title}</h1>
           </Link>
         </div>
         <div className="group relative">
-          <h1 className="text-5xl text-black">{welcome.menu}</h1>
+          <h1 className="text-3xl text-black">{welcome.menu}</h1>
           <div className="absolute invisible group-hover:visible z-10 w-[8vw] text-black rounded shadow-md px-3 py-2 text-sm right-0 mt-2">
             <div>
               <p className="leading-normal">Functionality coming soon</p>
