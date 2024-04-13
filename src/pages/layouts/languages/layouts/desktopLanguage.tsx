@@ -80,10 +80,12 @@ const DesktopLanguage: React.FC<{}> = () => {
           <div className="w-[15vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
-                <h1 className="text-3xl mb-[5vh]">Hosting</h1>
+                <h1 className="text-3xl mb-[5vh]">Hosting / DNS </h1>
                 <p className="text-xl">CPanel</p>
                 <p className="text-xl">SSL</p>
-                <p className="text-xl">Domain Names</p>
+                <p className="text-xl">DNS Record Managment</p>
+                <p className="text-xl">Name Servers</p>
+                <p className="text-xl">Email</p>
               </div>
             </ColorChange>
           </div>
@@ -153,6 +155,7 @@ const DesktopLanguage: React.FC<{}> = () => {
                 <h1 className="text-3xl mb-[5vh]">Networking</h1>
                 <p className="text-xl">TCP / IP</p>
                 <p className="text-xl">HTTP / HTTPS</p>
+                <p className="text-xl">RFC 739</p>
               </div>
             </ColorChange>
           </div>
