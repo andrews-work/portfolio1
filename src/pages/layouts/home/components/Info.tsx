@@ -8,7 +8,7 @@ const Info = () => {
       <div className="w-full p-4">
         <div className="flex flex-col justify-center">
           <div className="ml-[5vw]">
-            <h1 className="text-black text-5xl mb-[2vh]">{info.about}</h1>
+            <h1 className="text-black text-3xl mb-[2vh]">{info.about}</h1>
             <div className="flex ">
               <h4 className="text-xl mb-[1vh]">1. </h4>
               <Link href="/websites" className="text-black decoration-none hover:underline text-xl ml-[1vw]">

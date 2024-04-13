@@ -10,7 +10,7 @@ const Menu = () => {
         </div>
         <div className="absolute top-[8vh] left-0 h-0 w-[20vw] flex flex-col items-center space-y-4 mt-[2vh] overflow-hidden transition-all duration-300 group-hover:h-[32vh]">
           <div className="h-full w-full flex flex-col ml-[10vw] space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
-            <Link href="/projects/web-basics/rock-paper-scissors" id="1" className="text-3xl text-black decoration-none hover:underline">
+            <Link href="/projects/web-basics/rock-paper-scissors" id="1" className="text-xl text-black decoration-none hover:underline">
               001 - Rock Paper Scissors
             </Link>
             <Link href="/projects/web-basics/weather" className="text-xl text-black decoration-none hover:underline">
