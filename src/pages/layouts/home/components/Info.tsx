@@ -39,17 +39,17 @@ const Info = () => {
       <div className="w-full p-4">
         <div className="h-[40vh] flex flex-col justify-center">
           <div className="ml-[5vw]">
-            <h1 className="text-black text-5xl mb-[2vh]">{info.reviews}</h1>
-            <h4 className="text-3xl mb-[1vh]">{info.first}</h4>
-            <h4 className="text-3xl mb-[1vh]">{info.second}</h4>
+            <h1 className="text-black text-3xl mb-[2vh]">{info.reviews}</h1>
+            <h4 className="text-xl mb-[1vh]">{info.first}</h4>
+            <h4 className="text-xl mb-[1vh]">{info.second}</h4>
           </div>
         </div>
       </div>
       <div className="w-full p-4">
         <div className="h-[15vh] flex flex-col justify-center">
           <div className="ml-[5vw]">
-            <h1 className="text-black text-5xl mb-[2vh]">{info.contact}</h1>
-            <h4 className="text-3xl mb-[1vh]">{info.email}</h4>
+            <h1 className="text-black text-3xl mb-[2vh]">{info.contact}</h1>
+            <h4 className="text-xl mb-[1vh]">{info.email}</h4>
           </div>
         </div>
       </div>
