@@ -1,0 +1,19 @@
+import React from 'react';
+import Link from 'next/link';
+import GalleryM from '../components/GalleryM';
+
+const MobileWebsites = () => {
+  return (
+    <div className="flex flex-col h-screen text-white bg-black">
+      <header className="flex ml-[2vw] mt-[2vh]">
+        <Link href="/" className="text-2xl">Home</Link>
+      </header>
+
+      <main className="flex items-center flex-grow">
+        <GalleryM />
+      </main>
+    </div>
+  );
+};
+
+export default MobileWebsites;
