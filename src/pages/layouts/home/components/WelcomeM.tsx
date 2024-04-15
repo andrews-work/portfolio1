@@ -4,10 +4,10 @@ import { welcome } from '../../../../components/labels';
 
 const WelcomeM = () => {
   return (
-    <div className="flex w-full h-[10vh] border-b border-black items-center justify-center">
+    <div className="flex w-full h-[10vh] border-b border-black ml-[5vh] ">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className=" ml-[5vh] text-3xl text-black">{welcome.title}</h1>
+            <h1 className="text-3xl text-black">{welcome.title}</h1>
           </Link>
       </div>
     </div>
