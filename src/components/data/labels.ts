@@ -26,7 +26,7 @@ export interface ImageData {
       title: '002 - Manpuku Ramen - Under Construction',
       src: ramen,
       alt: 'Manpuku Ramen',
-      link: 'https://www.',
+      link: '',
       src2: ramenM,
 
     },
