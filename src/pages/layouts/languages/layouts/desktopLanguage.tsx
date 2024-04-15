@@ -81,11 +81,13 @@ const DesktopLanguage: React.FC<{}> = () => {
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Hosting / DNS </h1>
+                <p className="text-xl">AWS EC2</p>
                 <p className="text-xl">CPanel</p>
                 <p className="text-xl">SSL</p>
                 <p className="text-xl">DNS Record Managment</p>
+                <p className="text-xl">CSR</p>
                 <p className="text-xl">Name Servers</p>
-                <p className="text-xl">Email</p>
+                <p className="text-xl">Email Configuration</p>
               </div>
             </ColorChange>
           </div>
