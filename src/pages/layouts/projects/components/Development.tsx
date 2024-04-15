@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Development: React.FC = () => {
   return (
-    <div className="text-xl">
+    <div className="text-xl mb-[3vh]">
       <h1 className="text-3xl mb-[2vh]">Development</h1>
       <p>
         <Link href="/projects/java/mp3" className="decoration-none hover:underline">

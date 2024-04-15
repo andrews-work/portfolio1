@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Idea: React.FC = () => {
   return (
-    <div className="text-xl">
+    <div className="text-xl mb-[3vh]">
       <h1 className="text-3xl mb-[2vh]">Idea</h1>
       <p>
         <Link href="/projects/python/trade" className="decoration-none hover:underline">
