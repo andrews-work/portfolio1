@@ -33,26 +33,28 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         <div>{project.menu}</div>
       </div>
       <div className="w-[95vw] h-full flex flex-col items-center">
-        <div className="mt-[5vh] w-full h-[50vw] flex-col items-center ml-[10vw] p-4">
-          <h1 className="text-3xl mb-[2vh]">Aim</h1>
-          <p className="text-xl">1. {project.aim1}</p>
-          <p className="text-xl">2. {project.aim2}</p>
-          <p className="text-xl">3. {project.aim3}</p>
-        </div>
-        <div className="w-full h-[30] flex-col items-center ml-[10vw] p-4">
-          <h1 className="text-3xl mb-[2vh]">Process</h1>
-          <p className="text-xl">1. {project.process1}</p>
-          <p className="text-xl">2. {project.process2}</p>
-          <p className="text-xl">3. {project.process3}</p>
-          <p className="text-xl">4. {project.process4}</p>
-        </div>
-        <div className="w-full h-[10vh] flex-col items-center ml-[10vw] p-4">
-          <h1 className="text-3xl mb-[2vh]">Code</h1>
-          <Link href={project.code} passHref>
-            <a target="_blank" rel="noopener noreferrer" className="text-xl">
-              {project.code}
-            </a>
-          </Link>
+        <div className="w-full flex flex-col items-center p-4">
+          <div className="w-full mb-[2vh]">
+            <h1 className="text-3xl mb-[2vh]">Aim</h1>
+            <p className="text-xl">1. {project.aim1}</p>
+            <p className="text-xl">2. {project.aim2}</p>
+            <p className="text-xl">3. {project.aim3}</p>
+          </div>
+          <div className="w-full mb-[2vh]">
+            <h1 className="text-3xl mb-[2vh]">Process</h1>
+            <p className="text-xl">1. {project.process1}</p>
+            <p className="text-xl">2. {project.process2}</p>
+            <p className="text-xl">3. {project.process3}</p>
+            <p className="text-xl">4. {project.process4}</p>
+          </div>
+          <div className="w-full mb-[2vh]">
+            <h1 className="text-3xl mb-[2vh]">Code</h1>
+            <Link href={project.code} passHref>
+              <a target="_blank" rel="noopener noreferrer" className="text-xl">
+                {project.code}
+              </a>
+            </Link>
+          </div>
         </div>
         <div className="w-full flex-col items-center p-4">
           <Display image={project.image} version={project.version} />
