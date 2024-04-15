@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { images } from '../../../../components/data/labels';
+import Link from 'next/link';
 
 const GalleryM = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -17,6 +18,7 @@ const GalleryM = () => {
   
     return (
       <div className="w-full h-full flex items-center justify-center bg-black">
+      <Link href={currentImage.link}>
         <div className="flex-col w-full flex items-center justify-center">
           {/* title */}
           <div className="w-[85vw] h-[5vh]  mt-[5vh]">
@@ -50,6 +52,7 @@ const GalleryM = () => {
             <button onClick={handleNextClick}>Next</button>
           </div>
         </div>
+        </Link>
       </div>
     );
   };
