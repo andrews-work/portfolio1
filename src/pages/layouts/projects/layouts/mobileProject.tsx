@@ -4,7 +4,7 @@ import MenuM from "../components/menuM";
 
 const MobileProject: React.FC = () => {
   return (
-    <div className="space-between">
+    <div className="flex flex-col w-full">
       <Welcome />
       <MenuM />
     </div>
