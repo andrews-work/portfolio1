@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "it's technical?",
+  title: "it's technical ?",
   description: 'portfolio',
   icons: {
     icon: '/favicon.ico',
