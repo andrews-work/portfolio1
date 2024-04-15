@@ -26,7 +26,6 @@ const GalleryM = () => {
           <div className="flex-col justify-between w-[85vw]">
             {/* desktop image */}
             <div className="w-full h-[30vh] relative mb-[10vh]">
-              <h1 className="mb-[10vh]">Desktop</h1>
               <Image className="mt-[5vh]"
                 src={currentImage.src}
                 alt={currentImage.alt}
