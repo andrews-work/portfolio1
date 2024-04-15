@@ -1,84 +1,171 @@
-
 import React from 'react';
+import ColorChange from '@/components/ColorChange';
 
-const TabletLanguage: React.FC = () => {
+const TabletLanguage: React.FC<{}> = () => {
   return (
-    <div>
-      <div>
-        <h1>Languages</h1>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Python</p>
-        <p>SQL</p>
-        <p>Java</p>
-        <p>PHP</p>
-        <p>JavaScript</p>
-      </div>
+    <div className="h-screen w-screen flex justify-center items-center">
+      <div className="h-[90vh] w-[95vw] bg-white">
+        <div className="flex flex-wrap">
+          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Languages</h1>
+                <p className="text-xl">HTML</p>
+                <p className="text-xl">CSS</p>
+                <p className="text-xl">Python</p>
+                <p className="text-xl">SQL</p>
+                <p className="text-xl">Java</p>
+                <p className="text-xl">PHP</p>
+                <p className="text-xl">JavaScript</p>
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>Frameworks</h1>
-        <p>NodeJs</p>
-        <p>React</p>
-        <p>JavaFx</p>
-        <p>Next.js</p>
-        <p>Laraval</p>
-        <p>Bootstrap</p>
-        <p>Tailwind</p>
-        <p>Docker</p>
-        <p>Tpyescript</p>
-      </div>
+          <div className="w-[35vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Frameworks</h1>
+                <p className="text-xl">NodeJs</p>
+                <p className="text-xl">React</p>
+                <p className="text-xl">JavaFx</p>
+                <p className="text-xl">Next.js</p>
+                <p className="text-xl">Laraval</p>
+                <p className="text-xl">Bootstrap</p>
+                <p className="text-xl">Tailwind</p>
+                <p className="text-xl">Tpyescript</p>
+                <p className="text-xl">Nuxt.js</p>
+                <p className="text-xl">Vue</p>
+                <p className="text-xl">Plotly</p>
+                <p className="text-xl">Pandas</p>
+                <p className="text-xl">NumPy</p>
+                <p className="text-xl">Matplotlib</p>
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>Applications</h1>
-        <p>Visual Studio Code</p>
-        <p>Excel</p>
-        <p>Photoshop</p>
-      </div>
+          {/* <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-5xl mb-[5vh]">Applications</h1>
+                <p className="text-3xl">Visual Studio Code</p>
+                <p className="text-3xl">Excel</p>
+                <p className="text-3xl">Photoshop</p>
+              </div>
+            </ColorChange>
+          </div> */}
 
-      <div>
-        <h1>Databases</h1>
-        <p>MySQL</p>
-        {/* <p>MongDB</p> */}
-      </div>
+          <div className="w-[10vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Databases</h1>
+                <p className="text-xl">MySQL</p>
+                <p className="text-xl">MongDB</p>
+                {/* <p className="text-3xl">Salt & Pepper</p> */}
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>Operating Systems</h1>
-        <p>MacOS</p>
-        <p>Linux</p>
-        <p>Windows</p>
-        <p>Quebes</p>
-      </div>
+          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Operating Systems</h1>
+                <p className="text-xl">MacOS</p>
+                <p className="text-xl">Linux</p>
+                <p className="text-xl">Windows</p>
+                <p className="text-xl">Quebes</p>
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>Hosting</h1>
-        <p>CPanel</p>
-        <p>SSL</p>
-        <p>Domain Names</p>
-      </div>
+          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Hosting / DNS </h1>
+                <p className="text-xl">AWS EC2</p>
+                <p className="text-xl">CPanel</p>
+                <p className="text-xl">SSL</p>
+                <p className="text-xl">DNS Record Managment</p>
+                <p className="text-xl">CSR</p>
+                <p className="text-xl">Name Servers</p>
+                <p className="text-xl">Email Configuration</p>
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>Terminal</h1>
-        <p>SSH</p>
-        <p>Git</p>
-        <p>zsh</p>
-      </div>
+          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Terminal</h1>
+                <p className="text-xl">bash</p>
+                <p className="text-xl">bs</p>
+                <p className="text-xl">zsh</p>
+                <p className="text-xl">mongosh</p>
+              </div>
+            </ColorChange>
+          </div>
 
-      <div>
-        <h1>API</h1>
-        <p>OAuth</p>
-        <p>Stripe</p>
-        <p>OpenWeather</p>
-        <p>Zoom</p>
-      </div>
+          {/* <div className="w-[30vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-5xl mb-[5vh]">API</h1>
+                <p className="text-3xl">OAuth</p>
+                <p className="text-3xl">Stripe</p>
+                <p className="text-3xl">OpenWeather</p>
+                <p className="text-3xl">Zoom</p>
+              </div>
+            </ColorChange>
+          </div> */}
 
-      <div>
-        <h1>Concepts</h1>
-        <p>Routing</p>
-        <p>Hooks</p>
-        <p>Variables</p>
+          {/* <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-5xl mb-[5vh]">Concepts</h1>
+                <p className="text-3xl">Routing</p>
+                <p className="text-3xl">Hooks</p>
+                <p className="text-3xl">Variables</p>
+              </div>
+            </ColorChange>
+          </div> */}
+
+          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Encryption</h1>
+                <p className="text-xl">256sha</p>
+                <p className="text-xl">SSH</p>
+                <p className="text-xl">RSA</p>
+              </div>
+            </ColorChange>
+          </div>
+
+          <div className="w-[30vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Resources</h1>
+                <p className="text-xl">Mixtral.ai</p>
+                <p className="text-xl">Docs</p>
+                <p className="text-xl">Stack overflow</p>
+                <p className="text-xl">Youtube</p>
+                <p className="text-xl">ChatGPT</p>
+              </div>
+            </ColorChange>
+          </div>
+
+          <div className="w-[25vw] mr-[5vh] mb-[5vh]">
+            <ColorChange>
+              <div className="border border-black p-[1vh]">
+                <h1 className="text-3xl mb-[5vh]">Networking</h1>
+                <p className="text-xl">TCP / IP</p>
+                <p className="text-xl">HTTP / HTTPS</p>
+                <p className="text-xl">RFC 739</p>
+              </div>
+            </ColorChange>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+
 
 export default TabletLanguage;
