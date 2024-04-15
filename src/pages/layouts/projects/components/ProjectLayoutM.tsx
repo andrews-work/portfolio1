@@ -33,12 +33,13 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
           </Link>
         </div>
       </div>
-      <div className="h-[40vh]">
-          <DisplayM image={project.image} version={project.version} />
-        </div>
+
       {/* main section */}
       <div className="w-[95vw] flex flex-col items-center">
   <div className="w-full flex flex-col items-center p-4">
+    <div className="h-[40vh]">
+        <DisplayM image={project.image} version={project.version} />
+    </div>
 
     <div className="w-full mb-[2vh] flex-grow">
       <h1 className="text-3xl mb-[2vh]">Aim</h1>
