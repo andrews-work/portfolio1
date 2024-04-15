@@ -5,7 +5,6 @@ import Link from 'next/link';
 interface ProjectLayoutProps {
   project: {
     title: string;
-    menu: string;
     aim1: string;
     aim2: string;
     aim3: string;
@@ -26,20 +25,23 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
 
   return (
     <div className="flex-col h-full">
+      {/* title */}
       <div className="flex border-b border-black items-center h-[15vw]">
         <Link href="/projects">
           <div className="flex text-4xl ml-[2vw]">{project.title}</div>
         </Link>
-        <div>{project.menu}</div>
       </div>
+      {/* main section */}
       <div className="w-[95vw] flex flex-col items-center">
         <div className="w-full flex items-center p-4">
+          {/* aim */}
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Aim</h1>
             <p className="text-xl">1. {project.aim1}</p>
             <p className="text-xl">2. {project.aim2}</p>
             <p className="text-xl">3. {project.aim3}</p>
           </div>
+          {/* process */}
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Process</h1>
             <p className="text-xl">1. {project.process1}</p>
@@ -47,6 +49,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
             <p className="text-xl">3. {project.process3}</p>
             <p className="text-xl">4. {project.process4}</p>
           </div>
+          {/* code link */}
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Code</h1>
             <Link href={project.code} passHref>
@@ -55,10 +58,11 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
               </a>
             </Link>
           </div>
+          {/* image */}
+          <div className="w-full items-center p-4">
+            <Display image={project.image} version={project.version} />
+          </div>
         </div>
-        {/* <div className="w-full items-center p-4">
-          <Display image={project.image} version={project.version} />
-        </div> */}
       </div>
     </div>
   );
