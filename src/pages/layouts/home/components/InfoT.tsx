@@ -5,9 +5,9 @@ import { info } from '../../../../components/labels';
 const InfoM = () => {
   return (
     <div className="h-[90vh] w-full flex flex-col justify-between">
-      <div className="h-[80vh] w-full flex flex-col space-y-8 mt-[5vh] mb-[5vh]">
-        <div className="flex-1">
-          <div className="flex flex-col justify-center ml-[5vw]">
+      <div className="h-[80vh] w-full flex flex-col space-y-8 p-[5vh]">
+        <div className="flex-grow">
+          <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.about}</h1>
             <div className="flex">
               <h4 className="text-xl mb-[1vh]">1. </h4>
@@ -35,15 +35,15 @@ const InfoM = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1">
-          <div className="flex flex-col justify-center ml-[5vw]">
+        <div className="flex-grow">
+          <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.reviews}</h1>
             <h4 className="text-xl">{info.first}</h4>
             <h4 className="text-xl">{info.second}</h4>
           </div>
         </div>
-        <div className="flex-1">
-          <div className="flex flex-col justify-center ml-[5vw]">
+        <div className="flex-grow">
+          <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.contact}</h1>
             <h4 className="text-xl">{info.email}</h4>
           </div>
