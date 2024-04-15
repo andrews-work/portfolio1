@@ -6,34 +6,32 @@ const InfoM = () => {
   return (
     <div className="w-full flex flex-col space-between">
       <div className="w-full">
-        <div className="mt-[5vh] flex flex-col justify-center">
-          <div className="ml-[5vw]">
+        <div className="mt-[5vh] flex flex-col justify-center ml-[5vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.about}</h1>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">1. </h4>
-              <Link href="/websites" className="text-black underline text-xl ml-[1vw]">
+                <h4 className="text-xl mb-[1vh]">1. </h4>
+                <Link href="/websites" className="text-black underline text-xl ml-[1vw]">
                 <h4> {info.websites}</h4>
-              </Link>
+                </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">2. </h4>
-              <Link href="/projects" className="text-black underline text-xl ml-[1vw]">
+                <h4 className="text-xl mb-[1vh]">2. </h4>
+                <Link href="/projects" className="text-black underline text-xl ml-[1vw]">
                 <h4>{info.projects}</h4>
-              </Link>
+                </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">3. </h4>
-              <Link href="/languages" className="text-black underline text-xl ml-[1vw]">
+                <h4 className="text-xl mb-[1vh]">3. </h4>
+                <Link href="/languages" className="text-black underline text-xl ml-[1vw]">
                 <h4>{info.languages}</h4>
-              </Link>
+                </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">4. </h4>
-              <Link href="/store/" className="text-black underline text-xl ml-[1vw]">
+                <h4 className="text-xl mb-[1vh]">4. </h4>
+                <Link href="/store/" className="text-black underline text-xl ml-[1vw]">
                 <h4>{info.store}</h4>
-              </Link>
+                </Link>
             </div>
-          </div>
         </div>
       </div>
       <div className="w-full">
