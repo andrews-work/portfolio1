@@ -4,6 +4,7 @@
 2. projects
     - image slideshow of project or mp4 of it being used
     - info: about, errors, aim, process, code, time
+    - white page with name of project pops up center screen then animates to the top and the rest of the info animates in?
 3. technologies
     - 75% 
         - curent design / layout
