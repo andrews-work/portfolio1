@@ -5,7 +5,7 @@ import { info } from '../../../../components/labels';
 const InfoM = () => {
   return (
     <div className="h-[90vh] w-full flex flex-col justify-between">
-      <div className="h-[80vh] w-full flex flex-col space-y-8">
+      <div className="h-[80vh] w-full flex flex-col space-y-8 mt-[5vh] mb-[5vh]">
         <div className="flex-1">
           <div className="flex flex-col justify-center ml-[5vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.about}</h1>
