@@ -8,7 +8,7 @@ interface DisplayProps {
 
 const DisplayM: React.FC<DisplayProps> = ({ image, version }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex">
       <div className="h-[80vh] w-[75vw]">
         <Image src={image} alt="Project" layout="fill" objectFit="contain" />
       </div>

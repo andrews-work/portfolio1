@@ -24,7 +24,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
   }
 
   return (
-    <div className="flex-col h-full">
+    <div className="flex-col">
       {/* title */}
       <div className="flex border-b border-black items-center h-[15vw]">
         <Link href="/projects">
