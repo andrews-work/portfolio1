@@ -1,11 +1,11 @@
 import React from 'react';
-import Welcome from '../components/Welcome';
+import WelcomeM from '../components/WelcomeM';
 import InfoM from '../components/InfoM';
 
 const MobileHome = () => {
   return (
     <div className="flex-col">
-      <Welcome />
+      <WelcomeM />
       <InfoM />
     </div>
   );

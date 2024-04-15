@@ -1,11 +1,11 @@
 import React from "react";
-import Welcome from "../../home/components/Welcome";
+import WelcomeM from "../../home/components/WelcomeM";
 import MenuM from "../components/menuM";
 
 const MobileProject: React.FC = () => {
   return (
     <div className="flex flex-col w-full">
-      <Welcome />
+      <WelcomeM />
       <MenuM />
     </div>
   );
