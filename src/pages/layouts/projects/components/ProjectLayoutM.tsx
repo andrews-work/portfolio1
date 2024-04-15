@@ -56,9 +56,9 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
             </Link>
           </div>
         </div>
-        <div className="w-full items-center p-4">
+        {/* <div className="w-full items-center p-4">
           <Display image={project.image} version={project.version} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
