@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "it's technical",
-  description: 'basic front end app',
+  description: 'portfolio',
   icons: {
     icon: '/favicon.ico',
   },
