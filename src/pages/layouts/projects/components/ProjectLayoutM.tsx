@@ -41,7 +41,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
               <DisplayM image={project.image} version={project.version} />
           </div>
 
-          <div className="w-full h-[80vh] mb-[2vh] flex-grow">
+          <div className="w-full h-[80vh] mb-[2vh] mt-[30vh] flex-grow">
             <h1 className="text-3xl mb-[2vh]">Aim</h1>
             <p className="text-xl">1. {project.aim1}</p>
             <p className="text-xl">2. {project.aim2}</p>
