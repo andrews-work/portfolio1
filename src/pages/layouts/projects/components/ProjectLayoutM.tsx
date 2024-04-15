@@ -32,16 +32,16 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         </Link>
       </div>
       {/* main section */}
-      <div className="w-[95vw] h-[200vh] flex items-center">
+      {/* <div className="w-[95vw] h-[200vh] flex items-center">
         <div className="w-full flex items-center p-4">
-          {/* aim */}
+
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Aim</h1>
             <p className="text-xl">1. {project.aim1}</p>
             <p className="text-xl">2. {project.aim2}</p>
             <p className="text-xl">3. {project.aim3}</p>
           </div>
-          {/* process */}
+
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Process</h1>
             <p className="text-xl">1. {project.process1}</p>
@@ -49,7 +49,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
             <p className="text-xl">3. {project.process3}</p>
             <p className="text-xl">4. {project.process4}</p>
           </div>
-          {/* code link */}
+
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Code</h1>
             <Link href={project.code} passHref>
@@ -58,14 +58,14 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
               </a>
             </Link>
           </div>
-          {/* image */}
+
           <div className="h-[40vh]">
             <DisplayM image={project.image} version={project.version} />
           </div>
           <div className="w-full items-center p-4">
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
