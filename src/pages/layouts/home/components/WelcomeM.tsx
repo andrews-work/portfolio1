@@ -7,7 +7,7 @@ const WelcomeM = () => {
     <div className="flex w-full h-[10vh] border-b border-black items-center justify-center">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className="text-3xl text-black">{welcome.title}</h1>
+            <h1 className=" ml-[5vh] text-3xl text-black">{welcome.title}</h1>
           </Link>
       </div>
     </div>
