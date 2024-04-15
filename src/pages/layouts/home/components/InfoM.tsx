@@ -4,8 +4,8 @@ import { info } from '../../../../components/labels';
 
 const InfoM = () => {
   return (
-    <div className="h-[90vh] w-full flex flex-col">
-      <div className="w-full p-4">
+    <div className="w-full flex flex-col">
+      <div className="w-full">
         <div className="mt-[5vh] flex flex-col justify-center">
           <div className="ml-[5vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.about}</h1>
@@ -36,7 +36,7 @@ const InfoM = () => {
           </div>
         </div>
       </div>
-      <div className="w-full p-4">
+      <div className="w-full">
         <div className="mt-[5vh] flex flex-col justify-center">
           <div className="ml-[5vw] mb-[1vh]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.reviews}</h1>
@@ -45,7 +45,7 @@ const InfoM = () => {
           </div>
         </div>
       </div>
-      <div className="w-full p-4">
+      <div className="w-full">
         <div className="mt-[5vh] flex flex-col justify-center">
           <div className="ml-[5vw] mb-[1vh]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.contact}</h1>
