@@ -32,7 +32,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         </Link>
       </div>
       {/* main section */}
-      <div className="w-[95vw] flex items-center">
+      <div className="w-[95vw] h-[200vh] flex items-center">
         <div className="w-full flex items-center p-4">
           {/* aim */}
           <div className="w-full mb-[2vh]">
