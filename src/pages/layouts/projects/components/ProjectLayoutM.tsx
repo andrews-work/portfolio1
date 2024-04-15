@@ -33,6 +33,9 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
           </Link>
         </div>
       </div>
+      <div className="h-[40vh]">
+          <DisplayM image={project.image} version={project.version} />
+        </div>
       {/* main section */}
       <div className="w-[95vw] h-[200vh] flex items-center">
         <div className="w-full h-[200vh] flex items-center p-4">
@@ -59,12 +62,6 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
                 {project.code}
               </a>
             </Link>
-          </div>
-
-          <div className="h-[40vh]">
-            <DisplayM image={project.image} version={project.version} />
-          </div>
-          <div className="w-full items-center p-4">
           </div>
         </div>
       </div>
