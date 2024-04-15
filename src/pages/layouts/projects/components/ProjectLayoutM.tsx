@@ -24,7 +24,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
   }
 
   return (
-    <div className="flex-col">
+    <div className="flex-col w-full">
       {/* title */}
       <div className="flex w-full h-[10vh] border-b border-black items-center">
         <div className="ml-[2vh]">
@@ -34,7 +34,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         </div>
       </div>
       {/* main section */}
-      {/* <div className="w-[95vw] h-[200vh] flex items-center">
+      <div className="w-[95vw] h-[200vh] flex items-center">
         <div className="w-full flex items-center p-4">
 
           <div className="w-full mb-[2vh]">
@@ -67,7 +67,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
           <div className="w-full items-center p-4">
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
