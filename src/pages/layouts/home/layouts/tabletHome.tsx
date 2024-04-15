@@ -1,14 +1,14 @@
 import React from 'react';
-import Welcome from '../components/Welcome';
+import WelcomeM from '../components/WelcomeM';
 import InfoM from '../components/InfoM';
 
-const TabletHome = () => {
+const MobileHome = () => {
   return (
-    <div className="flex-col">
-      <Welcome />
+    <div className="flex flex-col w-full h-full">
+      <WelcomeM />
       <InfoM />
     </div>
   );
 };
 
-export default TabletHome;
+export default MobileHome;
