@@ -35,7 +35,7 @@ const GalleryM = () => {
             </div>
             {/* phone image */}
             <div className="w-full h-[90vh] relative mt-[5vh]">
-              <h1 className="mb-[10vh]">Mobile</h1>
+              <h1 className="mb-[10vh]"></h1>
               <Image className="mt-[5vh]"
                 src={currentImage.src2}
                 alt={currentImage.alt}
