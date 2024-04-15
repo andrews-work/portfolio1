@@ -35,8 +35,8 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
       </div>
 
       {/* main section */}
-      <div className="w-[95vw] flex flex-col items-center">
-        <div className="w-full flex flex-col items-center p-4">
+      <div className="w-[95vw] flexitems-center">
+        <div className="w-full flex items-center p-4">
           <div className="h-[50vh]">
               <DisplayM image={project.image} version={project.version} />
           </div>
