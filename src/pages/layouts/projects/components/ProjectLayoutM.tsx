@@ -33,7 +33,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         <div>{project.menu}</div>
       </div>
       <div className="w-[95vw] flex flex-col items-center">
-        <div className="w-full flex flex-col items-center p-4">
+        <div className="w-full flex items-center p-4">
           <div className="w-full mb-[2vh]">
             <h1 className="text-3xl mb-[2vh]">Aim</h1>
             <p className="text-xl">1. {project.aim1}</p>
@@ -56,7 +56,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
             </Link>
           </div>
         </div>
-        <div className="w-full flex-col items-center p-4">
+        <div className="w-full items-center p-4">
           <Display image={project.image} version={project.version} />
         </div>
       </div>
