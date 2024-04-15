@@ -4,7 +4,7 @@ import InfoM from '../components/InfoM';
 
 const MobileHome = () => {
   return (
-    <div className="flex-col">
+    <div className="flex flex-col w-full">
       <WelcomeM />
       <InfoM />
     </div>
