@@ -2,7 +2,7 @@ import React from 'react';
 
 const Display = () => {
   return (
-    <div className="flex flex-col">
+    <div className="">
       {/* image */}
       <div className="h-[80vh] w-[75vw] flex items-center justify-center bg-[#f0f0f0] text-xl">
         <div className="group relative">
