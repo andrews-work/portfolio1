@@ -1,5 +1,5 @@
 import React from 'react';
-import Display from './Display';
+import DisplayM from './DisplayM';
 import Link from 'next/link';
 
 interface ProjectLayoutProps {
@@ -59,8 +59,8 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
             </Link>
           </div>
           {/* image */}
+            <DisplayM image={project.image} version={project.version} />
           <div className="w-full items-center p-4">
-            <Display image={project.image} version={project.version} />
           </div>
         </div>
       </div>
