@@ -11,6 +11,7 @@ const TabletWebsites = () => {
 
       <main className="flex items-center flex-grow">
         <GalleryM />
+        <h1>yo</h1>
       </main>
     </div>
   );
