@@ -49,7 +49,7 @@ const GalleryT = () => {
           </div>
         </div>
         {/* buttons */}
-        <div className="flex w-full justify-center mt-[3vh] text-3xl">
+        <div className="flex w-full justify-center mt-[3vh] text-xl">
           <button className="mr-[1vw]" onClick={handlePreviousClick}>Previous</button>
           <button className="ml-[1vw]" onClick={handleNextClick}>Next</button>
         </div>
