@@ -20,8 +20,8 @@ const GalleryT = () => {
     <div className="w-full h-full flex items-center justify-center">
       <div className="flex-col w-full h-[70vh] flex items-center justify-center">
         {/* title */}
-        <div className="w-[83vw] h-[5vh]">
-          <h1 className="text-3xl">{currentImage.title}</h1>
+        <div className="w-[95vw] h-[5vh]">
+          <h1 className="text-xl">{currentImage.title}</h1>
         </div>
         {/* image */}
         <div className="flex w-[95vw]">
