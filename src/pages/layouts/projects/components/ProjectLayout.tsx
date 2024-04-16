@@ -1,7 +1,7 @@
 import React from 'react';
-import Welcome from './Welcome';
-import Info from './Info';
-import Display from './Display';
+// import Welcome from './Welcome';
+// import Info from './Info';
+// import Display from './Display';
 import DeviceSize from '@/components/DeviceSize';
 import ProjectLayoutM from './ProjectLayoutM';
 
