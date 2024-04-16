@@ -5,7 +5,7 @@ import WelcomeM from './WelcomeM';
 import DisplayM from './DisplayM';
 import AimM from './AimM';
 import ProcessM from './ProcessM';
-// import CodeM from './CodeM';
+import CodeM from './CodeM';
 
 interface ProjectLayoutProps {
   project: {
@@ -41,7 +41,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
         <div className="w-full flex flex-col items-center">
           <AimM aim1={project.aim1} aim2={project.aim2} aim3={project.aim3} />
           <ProcessM process1={project.process1} process2={project.process2} process3={project.process3} process4={project.process4} />
-          {/* <CodeM code={project.code} /> */}
+          <CodeM code={project.code} />
         </div>
       </div>
     </div>
