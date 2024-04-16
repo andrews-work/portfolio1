@@ -1,7 +1,7 @@
 import React from 'react';
 import ColorChange from '@/components/ColorChange';
 
-const TabletLanguage: React.FC<{}> = () => {
+const TabletLanguageT: React.FC<{}> = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       <div className="h-[90vh] w-[95vw] bg-white">
@@ -168,4 +168,4 @@ const TabletLanguage: React.FC<{}> = () => {
 };
 
 
-export default TabletLanguage;
+export default TabletLanguageT;
