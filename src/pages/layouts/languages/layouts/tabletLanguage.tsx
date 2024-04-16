@@ -6,7 +6,7 @@ const TabletLanguageT: React.FC<{}> = () => {
     <div className="h-screen w-screen flex justify-center items-center">
       <div className="h-[90vh] w-[95vw] bg-white">
         <div className="flex flex-wrap">
-          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
+          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Languages</h1>
@@ -21,7 +21,7 @@ const TabletLanguageT: React.FC<{}> = () => {
             </ColorChange>
           </div>
 
-          <div className="w-[35vw] mr-[5vh] mb-[5vh]">
+          <div className="w-[30vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Frameworks</h1>
@@ -54,7 +54,7 @@ const TabletLanguageT: React.FC<{}> = () => {
             </ColorChange>
           </div> */}
 
-          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
+          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Databases</h1>

@@ -38,7 +38,7 @@ const ProjectLayoutM: React.FC<ProjectLayoutProps> = ({ project }) => {
           <AimM aim1={project.aim1} aim2={project.aim2} aim3={project.aim3} />
           <ProcessM process1={project.process1} process2={project.process2} process3={project.process3} process4={project.process4} />
           <CodeM code={project.code} />
-          {/* <DisplayM image={project.image} version={project.version} /> */}
+          <DisplayM image={project.image} version={project.version} />
         </div>
       </div>
     </div>
