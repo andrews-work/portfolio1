@@ -26,7 +26,7 @@ const GalleryT = () => {
         {/* image */}
         <div className="flex w-[95vw] bg-blue-500">
           {/* desktop image */}
-          <div className="w-[50vw] h-[60vh] relative">
+          <div className="w-[60vw] h-[60vh] relative">
             <Link href={currentImage.link}>
                 <Image
                   src={currentImage.src}
