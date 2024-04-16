@@ -37,7 +37,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
             <div>
               <Welcome title={project.title} menu={project.menu} />
               <div className="flex flex-row">
-                <div className="w-full w-[25vw]">
+                <div className="w-full w-[24vw]">
                   <Info
                     aim1={project.aim1}
                     aim2={project.aim2}
