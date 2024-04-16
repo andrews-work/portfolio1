@@ -8,11 +8,11 @@ interface DisplayProps {
 
 const DisplayM: React.FC<DisplayProps> = ({ image, version }) => {
   return (
-    <div className="flex flex-col items-center mt-4">
-      <div className="w-full max-w-[95vw] h-auto">
-        <Image src={image} alt="Project" layout="responsive" objectFit="contain" />
+    <div className="flex flex-col">
+      <div className="h-[80vh] w-[75vw]">
+        <Image src={image} alt="Project" layout="fill" objectFit="contain" />
       </div>
-      <div className="w-full max-w-[95vw] border-t border-black flex items-center justify-center text-xl py-2">
+      <div className="h-[10vh] w-[75vw] border-t border-black flex items-center justify-center text-xl">
         <p>{version}</p>
       </div>
     </div>
