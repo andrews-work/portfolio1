@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { images } from '../../../../components/data/labels';
 
-const Gallery = () => {
+const GalleryT = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const currentImage = images[currentImageIndex];
@@ -58,4 +58,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default GalleryT;
