@@ -8,7 +8,7 @@ interface DisplayProps {
 
 const Display: React.FC<DisplayProps> = ({ image, version }) => {
   return (
-    <div className="flex flex-col items-center mt-4">
+    <div className="flex h-full w-full flex-col items-center mt-4">
       <h1 className="mt-[5vh]">Preview</h1>
       <div className="w-full max-w-[95vw] h-auto">
         <Image src={image} alt="Project" layout="responsive" objectFit="contain" />
