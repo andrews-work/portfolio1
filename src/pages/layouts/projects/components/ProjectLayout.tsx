@@ -35,11 +35,11 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         } else {
           return (
             <div className="h-full w-full flex-col">
-              <div className=" flex h-[10vh] w-full border-black border-b">
+              <div className="flex h-[10vh] w-full border-black border-b">
                 <Welcome title={project.title} menu={project.menu} />
               </div>
               <div className="flex h-[90vh] flex-row w-full">
-                <div className="w-[24vw]">
+                <div className="w-[25%]">
                   <Info
                     aim1={project.aim1}
                     aim2={project.aim2}
@@ -51,7 +51,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
                     code={project.code}
                   />
                 </div>
-                <div className="w-[75vw]">
+                <div className="w-[75%]">
                   <Display image={project.image} version={project.version} />
                 </div>
               </div>

@@ -13,9 +13,9 @@ interface InfoProps {
 
 const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, process3, process4, code }) => {
   return (
-    <div className="h-[90vh] w-[25vw] border-r border-black flex flex-col">
+    <div className="h-full w-full border-r border-black flex flex-col">
       <div className="w-full p-4">
-        <div className="h-[30vh] flex flex-col justify-center">
+        <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Aims</h1>
             <div className="flex">
@@ -34,7 +34,7 @@ const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, proce
         </div>
       </div>
       <div className="w-full p-4">
-        <div className="h-[30vh] flex flex-col justify-center">
+        <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Process</h1>
             <div className="flex">
@@ -57,7 +57,7 @@ const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, proce
         </div>
       </div>
       <div className="w-full p-4">
-        <div className="h-[25vh] flex flex-col justify-center">
+        <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Code</h1>
             <a href={code} target="_blank" rel="noopener noreferrer">
