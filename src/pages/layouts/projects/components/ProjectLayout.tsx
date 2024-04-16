@@ -21,7 +21,6 @@ interface ProjectLayoutProps {
     version: string;
   };
 }
-// comments
 
 const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
   if (!project) {
