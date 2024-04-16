@@ -27,7 +27,6 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
     return <div>Loading...</div>;
   }
 
-  // comment
   return (
     <DeviceSize>
       {(size) => {
