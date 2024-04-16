@@ -10,8 +10,8 @@ const Display: React.FC<DisplayProps> = ({ image, version }) => {
   return (
     <div className="flex flex-col items-center mt-4">
       <h1 className="mt-[5vh]">Preview</h1>
-      <div className="w-full max-w-[95vw] h-[80vh] relative">
-        <Image src={image} alt="Project" layout="fill" objectFit="contain" />
+      <div className="w-full max-w-[95vw] h-auto">
+        <Image src={image} alt="Project" layout="responsive" objectFit="contain" />
       </div>
       <div className="w-full max-w-[95vw] border-t border-black flex items-center justify-center text-xl py-2">
         <p>{version}</p>
