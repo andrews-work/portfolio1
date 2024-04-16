@@ -8,8 +8,8 @@ const MenuT = () => {
         <div className="h-[8vh] w-[20vw] flex items-center bg-white justify-center border-2 border-solid border-black">
           <h2 className="text-l">Web basics</h2>
         </div>
-        <div className="absolute top-[8vh] left-0 h-0 w-[20vw] flex flex-col items-center space-y-4 mt-[2vh] overflow-hidden transition-all duration-300 group-hover:h-[32vh]">
-          <div className="h-full w-full flex flex-col space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
+        <div className="absolute top-[8vh] left-0 h-0 w-[25vw] flex flex-col items-center space-y-4 mt-[2vh] overflow-hidden transition-all duration-300 group-hover:h-[32vh]">
+          <div className="h-full w-full flex flex-col ml-[1vw] space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
             <Link href="/projects/web-basics/rock-paper-scissors" id="1" className="text-l text-black decoration-none hover:underline">
               001 - Rock Paper Scissors
             </Link>
@@ -34,7 +34,7 @@ const MenuT = () => {
           <h2 className="text-l">Python</h2>
         </div>
         <div className="absolute top-[8vh] left-0 h-0 w-[20vw] flex flex-col items-center space-y-4 mt-[2vh] overflow-hidden transition-all duration-300 group-hover:h-[32vh]">
-          <div className="h-full w-full flex flex-col space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
+          <div className="h-full w-full flex flex-col ml-[5vw] space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
             <Link href="/projects/python/nba" className="text-l text-black decoration-none hover:underline">
               006 - Data NBA
             </Link>
@@ -50,7 +50,7 @@ const MenuT = () => {
           <h2 className="text-l">Java</h2>
         </div>
         <div className="absolute top-[8vh] left-0 h-0 w-[20vw] flex flex-col items-center space-y-4 mt-[2vh] overflow-hidden transition-all duration-300 group-hover:h-[32vh]">
-          <div className="h-full w-full flex flex-col space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
+          <div className="h-full w-full flex flex-col ml-[5vw] space-y-4 mt-[2vh] opacity-0 transition-all duration-300 group-hover:opacity-100">
             <Link href="/projects/java/mp3" className="text-l text-black decoration-none hover:underline">
               007 - MP3 Player
             </Link>
