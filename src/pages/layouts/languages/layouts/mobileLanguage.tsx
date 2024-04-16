@@ -72,7 +72,7 @@ const MobileLanguage: React.FC<{}> = () => {
                 <p className="text-xl">MacOS</p>
                 <p className="text-xl">Linux</p>
                 <p className="text-xl">Windows</p>
-                <p className="text-xl">Quebes</p>
+                <p className="text-xl">Qubes</p>
               </div>
             </ColorChange>
           </div>
