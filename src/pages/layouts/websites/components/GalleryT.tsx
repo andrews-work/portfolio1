@@ -26,7 +26,7 @@ const GalleryT = () => {
         {/* image */}
         <div className="flex w-[95vw]">
           {/* desktop image */}
-          <div className="w-[50vw] h-[60vh] relative">
+          <div className="w-[50vw] h-[60vh]">
             <Link href={currentImage.link}>
                 <Image
                   src={currentImage.src}
@@ -37,7 +37,7 @@ const GalleryT = () => {
             </Link>
           </div>
           {/* phone image */}
-          <div className="w-[20vw] h-[60vh] relative">
+          <div className="w-[20vw] h-[60vh]">
             <Link href={currentImage.link}>
                 <Image
                   src={currentImage.src2}
