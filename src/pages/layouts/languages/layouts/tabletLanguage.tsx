@@ -54,7 +54,7 @@ const TabletLanguage: React.FC<{}> = () => {
             </ColorChange>
           </div> */}
 
-          <div className="w-[10vw] mr-[5vh] mb-[5vh]">
+          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Databases</h1>
@@ -77,7 +77,7 @@ const TabletLanguage: React.FC<{}> = () => {
             </ColorChange>
           </div>
 
-          <div className="w-[15vw] mr-[5vh] mb-[5vh]">
+          <div className="w-[25vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Hosting / DNS </h1>
