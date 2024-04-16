@@ -1,7 +1,7 @@
 import React from 'react';
-// import Welcome from './Welcome';
-// import Info from './Info';
-// import Display from './Display';
+import Welcome from './Welcome';
+import Info from './Info';
+import Display from './Display';
 import DeviceSize from '@/components/DeviceSize';
 import ProjectLayoutM from './ProjectLayoutM';
 
@@ -21,6 +21,7 @@ interface ProjectLayoutProps {
     version: string;
   };
 }
+// comments
 
 const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
   if (!project) {
@@ -36,7 +37,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="h-full w-full flex-col">
               <div className=" flex h-[10vh] w-full border-black border-b">
-                {/* <Welcome title={project.title} menu={project.menu} /> */}
+                <Welcome title={project.title} menu={project.menu} />
               </div>
               <div className="flex h-[90vh] flex-row w-full">
                 <div className="w-[24vw]">
