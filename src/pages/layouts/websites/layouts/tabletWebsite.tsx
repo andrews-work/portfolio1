@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import GalleryM from '../components/GalleryM';
+import GalleryT from '../components/GalleryT';
 
 const TabletWebsites = () => {
   return (
@@ -10,7 +10,7 @@ const TabletWebsites = () => {
       </header>
 
       <main className="flex items-center flex-grow">
-        <GalleryM />
+        <GalleryT />
       </main>
     </div>
   );
