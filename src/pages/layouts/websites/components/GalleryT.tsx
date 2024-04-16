@@ -24,7 +24,7 @@ const GalleryT = () => {
           <h1 className="text-xl">{currentImage.title}</h1>
         </div>
         {/* image */}
-        <div className="flex w-[95vw] space-between">
+        <div className="flex w-[95vw] space-x-[5vw]">
           {/* desktop image */}
           <div className="w-[60vw] h-[60vh] relative">
             <Link href={currentImage.link}>
