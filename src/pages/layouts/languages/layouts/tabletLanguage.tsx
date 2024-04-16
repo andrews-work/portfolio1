@@ -127,7 +127,7 @@ const TabletLanguageT: React.FC<{}> = () => {
             </ColorChange>
           </div> */}
 
-          <div className="w-[20vw] mr-[5vh] mb-[5vh]">
+          {/* <div className="w-[20vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
               <div className="border border-black p-[1vh]">
                 <h1 className="text-3xl mb-[5vh]">Encryption</h1>
@@ -136,7 +136,7 @@ const TabletLanguageT: React.FC<{}> = () => {
                 <p className="text-xl">RSA</p>
               </div>
             </ColorChange>
-          </div>
+          </div> */}
 
           <div className="w-[30vw] mr-[5vh] mb-[5vh]">
             <ColorChange>
