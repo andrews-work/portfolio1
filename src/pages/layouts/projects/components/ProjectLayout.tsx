@@ -8,7 +8,7 @@ import ProjectLayoutM from './ProjectLayoutM';
 interface ProjectLayoutProps {
   project: {
     title: string;
-    // menu: string;
+    menu: string;
     aim1: string;
     aim2: string;
     aim3: string;
@@ -36,7 +36,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="h-full w-full flex-col">
               <div>
-                <Welcome title={project.title} />
+                <Welcome title={project.title} menu={project.menu} />
               </div>
               <div className="flex h-[90vh] flex-row w-full">
                 <div className="w-[25vw] border-black border-r">
