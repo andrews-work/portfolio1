@@ -8,8 +8,8 @@ interface projectProps {
 
 const Welcome: React.FC<projectProps> = ({ title, menu }) => {
   return (
-    <div className="flex w-full h-[10vh] border-b border-black items-center justify-center px-8">
-      <div className="w-full flex justify-between">
+    <div className="">
+      <div className="">
         <div>
           <Link href="/projects" className="no-underline hover:underline">
             <h1 className="text-3xl text-black">{title}</h1>
@@ -24,3 +24,4 @@ const Welcome: React.FC<projectProps> = ({ title, menu }) => {
 };
 
 export default Welcome;
+        
