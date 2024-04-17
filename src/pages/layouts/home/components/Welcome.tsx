@@ -13,7 +13,7 @@ const Welcome = () => {
         </div>
         <div className="group relative">
           <h1 className="text-3xl text-black">{welcome.menu}</h1>
-          <div className="absolute invisible group-hover:visible z-10 w-[20vw] text-black rounded shadow-md px-3 py-2 text-sm right-0 mt-1">
+          <div className="absolute invisible group-hover:visible z-10 w-[20vw] text-black rounded shadow-md px-3 text-sm right-0">
             <div>
               <p className="leading-normal">Functionality coming soon</p>
             </div>
