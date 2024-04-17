@@ -15,7 +15,7 @@ const Display: React.FC<DisplayProps> = ({ image, version }) => {
           alt="Project"
           layout="responsive"
           objectFit="contain"
-          style={{ maxHeight: '60vh', width: 'auto' }}
+          style={{ maxHeight: '70vh', width: 'auto' }}
         />
       </div>
       <div className="w-full max-w-full border-t border-black flex items-center justify-center text-xl py-2">
