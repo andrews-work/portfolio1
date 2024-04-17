@@ -8,7 +8,7 @@ const Welcome = () => {
       <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className="ml-[5vw] text-3xl text-black">{welcome.title}</h1>
+            <h1 className="text-3xl text-black">{welcome.title}</h1>
           </Link>
         </div>
         <div className="group relative">
