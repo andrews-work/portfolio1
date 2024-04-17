@@ -5,7 +5,7 @@ import { welcome } from '../../../../components/labels';
 const Welcome = () => {
   return (
     <div className="flex w-full h-[10vh] border-b border-black items-center justify-center px-8">
-      <div className="w-full flex justify-between">
+      <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
             <h1 className="ml-[5vw] text-3xl text-black">{welcome.title}</h1>
