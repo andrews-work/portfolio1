@@ -38,23 +38,13 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
             <div className="h-full w-full flex flex-col">
               <div className="h-[10vh] w-full border-b border-black bg-blue-500">
                 <p>This is a test</p>
-                <Welcome title={project.title} menu={project.menu} />
               </div>
               <div className="flex h-[90vh] w-full">
                 <div className="h-full w-[25vw] border-r border-black">
-                  {/* <Info
-                    aim1={project.aim1}
-                    aim2={project.aim2}
-                    aim3={project.aim3}
-                    process1={project.process1}
-                    process2={project.process2}
-                    process3={project.process3}
-                    process4={project.process4}
-                    code={project.code}
-                  /> */}
+                  <p>This is a test</p>
                 </div>
                 <div className="h-full w-[75vw]">
-                  {/* <Display image={project.image} version={project.version} /> */}
+                  <p>This is a test</p>
                 </div>
               </div>
             </div>
