@@ -11,7 +11,7 @@ const Welcome: React.FC<projectProps> = ({ title, menu }) => {
     <div>
         <div className="">
           <Link href="/projects" className="no-underline hover:underline">
-            <h1 className="text-3xl text-black">{title}</h1>
+            <h1 className="text-3xl text-black">{title} hi</h1>
           </Link>
         </div>
     </div>
