@@ -30,22 +30,32 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
   return (
     <DeviceSize>
       {(size) => {
-        console.log(size);
         if (size === "mobile") {
           return project ? <ProjectLayoutM project={project} /> : <div>Project not found</div>;
         } else {
           return (
-            <div className="h-full w-full flex flex-col bg-blue-500">
-              <div className="h-[10vh] w-full border-b border-black bg-blue-500">
-                <p>This is a test</p>
+            <div className="h-full w-full">
+              <div className="flex-col">
+              <div className="flex h-[10vh] w-full border-black border-b">
+                <Welcome title={project.title} menu={project.menu} />
               </div>
-              <div className="flex-row h-[90vh] w-full">
-                <div className="h-full w-[25vw] border-r border-black">
-                  <p>This is a test</p>
+              <div className="flex h-[90vh] flex-row w-full">
+                <div className="w-[25vw] border-black border-r">
+                  {/* <Info
+                    aim1={project.aim1}
+                    aim2={project.aim2}
+                    aim3={project.aim3}
+                    process1={project.process1}
+                    process2={project.process2}
+                    process3={project.process3}
+                    process4={project.process4}
+                    code={project.code}
+                  /> */}
                 </div>
-                <div className="h-full w-[75vw]">
-                  <p>This is a test</p>
+                <div className="w-[75vw]">
+                  {/* <Display image={project.image} version={project.version} /> */}
                 </div>
+              </div>
               </div>
             </div>
           );
