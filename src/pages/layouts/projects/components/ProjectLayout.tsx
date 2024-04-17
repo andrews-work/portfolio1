@@ -30,6 +30,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
   return (
     <DeviceSize>
       {(size) => {
+        console.log(size);
         if (size === "mobile") {
           return project ? <ProjectLayoutM project={project} /> : <div>Project not found</div>;
         } else {
