@@ -9,7 +9,7 @@ interface projectProps {
 const Welcome: React.FC<projectProps> = ({ title, menu }) => {
   return (
     <div>
-      <div className="bg-black">
+      <div className="bg-sky-500">
         <div>
           <Link href="/projects" className="no-underline hover:underline">
             <h1 className="text-3xl text-black">{title}</h1>
