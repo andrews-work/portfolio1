@@ -36,7 +36,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="">
               <div className="">
-                <div>
+                <div className="w-full bg-black">
                   <Welcome title={project.title} menu={project.menu} />
                 </div>
                 <div>
@@ -53,7 +53,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
                     /> */}
                   </div>
                   <div className="">
-                    <Display image={project.image} version={project.version} />
+                    {/* <Display image={project.image} version={project.version} /> */}
                   </div>
                 </div>
               </div>
