@@ -36,7 +36,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="">
               <div className="">
-                <div className="w-full bg-black">
+                <div className="w-full h-[10vw]">
                   <Welcome title={project.title} menu={project.menu} />
                 </div>
                 <div>
