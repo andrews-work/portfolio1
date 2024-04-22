@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import ProjectLayout from '@/pages/layouts/projects/components/ProjectLayout';
 import { projectsData } from '@/components/data/Variables';
 import { StaticImageData } from 'next/image';
+import './../../../app/globals.css';
+import './../../../app/styles.css';
 
 const ProjectPage = () => {
   const router = useRouter();
