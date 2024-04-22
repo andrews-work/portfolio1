@@ -34,12 +34,12 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return project ? <ProjectLayoutM project={project} /> : <div>Project not found</div>;
         } else {
           return (
-            <div className="h-full w-full">
-              <div className="flex-col">
-                <div className="flex h-[10vh] w-full border-black border-b">
+            <div className="">
+              <div className="">
+                <div>
                   <Welcome title={project.title} menu={project.menu} />
                 </div>
-                <div className="flex h-[90vh] flex-row w-full">
+                <div>
                   <div className="w-[25vw] border-black border-r">
                     <Info
                       aim1={project.aim1}
