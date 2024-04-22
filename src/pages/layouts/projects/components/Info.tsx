@@ -14,7 +14,7 @@ interface InfoProps {
 const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, process3, process4, code }) => {
   return (
     <div className="h-full w-full flex flex-col">
-      <div className="w-full p-4">
+      <div className="w-full flex-grow flex-1 p-4">
         <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Aims</h1>
@@ -33,7 +33,7 @@ const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, proce
           </div>
         </div>
       </div>
-      <div className="w-full p-4">
+      <div className="w-full flex-grow flex-1 p-4">
         <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Process</h1>
@@ -56,7 +56,7 @@ const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, proce
           </div>
         </div>
       </div>
-      <div className="w-full p-4">
+      <div className="w-full flex-grow flex-1 p-4">
         <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">Code</h1>
