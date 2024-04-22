@@ -34,32 +34,30 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return project ? <ProjectLayoutM project={project} /> : <div>Project not found</div>;
         } else {
           return (
-            <div className="">
-              <div className="flex-col">
-                <div className="w-full h-[10vw] items-center border-b border-black bg-blue-500">
-                  <div className="w-full">
-                    <h1 className="w-[5vw]"></h1>
-                    <h1 className="ml-[5vw] text-red">{project.title}</h1>
-                    <h2 className="mr-[5vw]">{project.menu}</h2>
-                    <h1 className="w-[5vw]"></h1>
-                  </div>
+            <div className="flex flex-col">
+              <div className="flex flex-row w-full h-[10vw] items-center border-b border-black bg-blue-500">
+                <div className="w-full flex justify-between">
+                  <h1 className="w-[5vw]"></h1>
+                  <h1 className="ml-[5vw] text-red-500">{project.title}</h1>
+                  <h2 className="mr-[5vw]">{project.menu}</h2>
+                  <h1 className="w-[5vw]"></h1>
                 </div>
-                <div className="bg-red-100">
-                  <div className="w-[25vw] h-[90vh]">
-                    {/* <Info
-                      aim1={project.aim1}
-                      aim2={project.aim2}
-                      aim3={project.aim3}
-                      process1={project.process1}
-                      process2={project.process2}
-                      process3={project.process3}
-                      process4={project.process4}
-                      code={project.code}
-                    /> */}
-                  </div>
-                  <div className="w-[70vw] h-[90vh]">
-                    {/* <Display image={project.image} version={project.version} /> */}
-                  </div>
+              </div>
+              <div className="bg-red-100 flex">
+                <div className="w-[25vw] h-[90vh]">
+                  {/* <Info
+                    aim1={project.aim1}
+                    aim2={project.aim2}
+                    aim3={project.aim3}
+                    process1={project.process1}
+                    process2={project.process2}
+                    process3={project.process3}
+                    process4={project.process4}
+                    code={project.code}
+                  /> */}
+                </div>
+                <div className="w-[70vw] h-[90vh]">
+                  {/* <Display image={project.image} version={project.version} /> */}
                 </div>
               </div>
             </div>
