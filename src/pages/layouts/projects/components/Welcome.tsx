@@ -9,7 +9,7 @@ interface projectProps {
 const Welcome: React.FC<projectProps> = ({ title, menu }) => {
   return (
     <div>
-      <div className="h-[10vw] w-full border-b border-black flex items-center">
+      <div className="h-[10vw] w-full flex items-center justify-center">
         <div className="flex items-center h-[10vh]">
           <div className="ml-[5vw]">
             <Link href="/projects" className="no-underline hover:underline">
