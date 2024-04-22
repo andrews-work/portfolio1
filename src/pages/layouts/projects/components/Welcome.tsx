@@ -10,7 +10,7 @@ const Welcome: React.FC<projectProps> = ({ title, menu }) => {
   return (
     <div>
       <div className="h-[10vw] w-full flex">
-        <div className="flex items-center   justify-centerh-[10vh]">
+        <div className="flex items-center justify-center">
           <div className="ml-[5vw]">
             <Link href="/projects" className="no-underline hover:underline">
               <h1 className="text-3xl text-black">{title}</h1>
