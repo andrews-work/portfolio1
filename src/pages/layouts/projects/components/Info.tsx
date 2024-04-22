@@ -13,7 +13,7 @@ interface InfoProps {
 
 const Info: React.FC<InfoProps> = ({ aim1, aim2, aim3, process1, process2, process3, process4, code }) => {
   return (
-    <div className="h-full w-full border-r border-black flex flex-col">
+    <div className="h-full w-full flex flex-col">
       <div className="w-full p-4">
         <div className="h-full flex flex-col justify-center">
           <div className="ml-[3vw]">
