@@ -10,7 +10,7 @@ interface AimMProps {
 
 const AimM: React.FC<AimMProps> = ({ aim1, aim2, aim3 }) => {
   return (
-    <div className="w-full mb-[2vh] flex-grow">
+    <div className="w-full mb-[2vh] mt-[2vh] flex-grow">
       <h1 className="text-3xl mb-[2vh]">Aim</h1>
       <p className="text-xl">1. {aim1}</p>
       <p className="text-xl">2. {aim2}</p>
