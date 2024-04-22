@@ -8,8 +8,8 @@ interface DisplayProps {
 
 const Display: React.FC<DisplayProps> = ({ image, version }) => {
   return (
-    <div className="flex-col h-full w-[full] items-center mt-4">
-      <div className="h-auto w-full">
+    <div className="flex-col h-[90vh] w-[full] items-center mt-4">
+      <div className="h-[80vh] w-full">
         <Image
           src={image}
           alt="Project"
