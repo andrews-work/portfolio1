@@ -18,7 +18,7 @@ const Display: React.FC<DisplayProps> = ({ image, version }) => {
           style={{ maxHeight: '80vh', width: 'auto' }}
         />
       </div>
-      <div className="w-full max-w-full border-t border-black flex items-center justify-center text-xl py-2">
+      <div className="w-full h-[10vh] max-w-full border-t border-black flex items-center justify-center text-xl py-2">
         <p>{version}</p>
       </div>
     </div>
