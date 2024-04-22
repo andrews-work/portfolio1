@@ -11,7 +11,7 @@ interface ProcessMProps {
 
 const ProcessM: React.FC<ProcessMProps> = ({ process1, process2, process3, process4 }) => {
   return (
-    <div className="w-full h-[80vh] mb-[2vh] flex-grow">
+    <div className="w-full h-[40vh] mb-[2vh] flex-grow">
       <h1 className="text-3xl mb-[2vh]">Process</h1>
       <p className="text-xl">1. {process1}</p>
       <p className="text-xl">2. {process2}</p>
