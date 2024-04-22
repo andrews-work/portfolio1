@@ -35,7 +35,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         } else {
           return (
             <div className="flex flex-col">
-              <div className="flex flex-row w-full h-[10vw] items-center border-b border-black bg-blue-500">
+              <div className="flex flex-row w-full h-[10vw] items-center border-b border-black bg-blue-500" style={{ boxSizing: 'border-box' }}>
                 <div className="w-[90vw] flex justify-between">
                   <h1 className="ml-[5vw] text-red-500">{project.title}</h1>
                   <h2 className="mr-[5vw]">{project.menu}</h2>
@@ -64,6 +64,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
       }}
     </DeviceSize>
   );
+  
 };
 
 export default ProjectLayout;
