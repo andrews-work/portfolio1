@@ -36,9 +36,11 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="">
               <div className="flex-col">
-                <div className="w-full h-[10vw] items-center justify-center border-b border-black bg-blue-500">
+                <div className="w-full h-[10vw] text-red border-b border-black bg-blue-500">
+                  <div className="w-[90vw]">
                     <h1 className="ml-[5vw]">{project.title}</h1>
                     <h2 className="mr-[5vw]">{project.menu}</h2>
+                  </div>
                 </div>
                 <div className="bg-red-100">
                   <div className="w-[25vw] h-[90vh]">
