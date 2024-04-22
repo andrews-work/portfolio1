@@ -35,8 +35,8 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         } else {
           return (
             <div className="">
-              <div className="flex-col bg-blue-500">
-                <div className="w-full h-[10vw] items-center justify-center border-b border-black">
+              <div className="flex-col">
+                <div className="w-full h-[10vw] items-center justify-center border-b border-black bg-blue-500">
                     <h1 className="ml-[5vw]">{project.title}</h1>
                     <h2 className="mr-[5vw]">{project.menu}</h2>
                 </div>
