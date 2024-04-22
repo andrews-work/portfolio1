@@ -1,7 +1,7 @@
 import React from 'react';
 import Welcome from './Welcome';
-import Info from './Info';
-import Display from './Display';
+// import Info from './Info';
+// import Display from './Display';
 import DeviceSize from '@/components/DeviceSize';
 import ProjectLayoutM from './ProjectLayoutM';
 
@@ -35,12 +35,12 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
         } else {
           return (
             <div className="">
-              <div className="">
+              <div className="flex-col bg-blue-500">
                 <div className="w-full h-[10vw]">
                   <Welcome title={project.title} menu={project.menu} />
                 </div>
                 <div>
-                  <div className="">
+                  <div className="w-[25vw] h-[90vh]">
                     {/* <Info
                       aim1={project.aim1}
                       aim2={project.aim2}
@@ -52,7 +52,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
                       code={project.code}
                     /> */}
                   </div>
-                  <div className="">
+                  <div className="w-[70vw] h-[90vh]">
                     {/* <Display image={project.image} version={project.version} /> */}
                   </div>
                 </div>
