@@ -8,8 +8,8 @@ interface DisplayProps {
 
 const Display: React.FC<DisplayProps> = ({ image, version }) => {
   return (
-    <div className="">
-      <div className="">
+    <div className="flex h-full w-[full] items-center mt-4">
+      <div className="h-auto w-full">
         <Image
           src={image}
           alt="Project"
@@ -18,7 +18,7 @@ const Display: React.FC<DisplayProps> = ({ image, version }) => {
           style={{ maxHeight: '80vh', width: 'auto' }}
         />
       </div>
-      <div className="">
+      <div className="w-full max-w-full border-t border-black flex items-center justify-center text-xl py-2">
         <p>{version}</p>
       </div>
     </div>
