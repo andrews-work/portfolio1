@@ -41,7 +41,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
                 </div>
                 <div>
                   <div className="">
-                    <Info
+                    {/* <Info
                       aim1={project.aim1}
                       aim2={project.aim2}
                       aim3={project.aim3}
@@ -50,7 +50,7 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
                       process3={project.process3}
                       process4={project.process4}
                       code={project.code}
-                    />
+                    /> */}
                   </div>
                   <div className="">
                     <Display image={project.image} version={project.version} />
