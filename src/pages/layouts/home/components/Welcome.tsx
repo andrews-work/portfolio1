@@ -20,11 +20,9 @@ const Welcome = () => {
             <div className="absolute right-0 bottom-0 w-0 h-0 border-solid border-gray-900 border-t-0 border-r-0 border-b-2 border-l-2"></div>
           </div>
         </div>
-
       </div>
     </div>
   );
 };
-
 
 export default Welcome;

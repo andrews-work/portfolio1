@@ -36,26 +36,26 @@ const ProjectLayout: React.FC<ProjectLayoutProps> = ({ project }) => {
           return (
             <div className="h-full w-full">
               <div className="flex-col">
-                <div className="flex h-[10vh] w-full border-black border-b">
-                  <Welcome title={project.title} menu={project.menu} />
+              <div className="flex h-[10vh] w-full border-black border-b">
+                <Welcome title={project.title} menu={project.menu} />
+              </div>
+              <div className="flex h-[90vh] flex-row w-full">
+                <div className="w-[25vw] border-black border-r">
+                  <Info
+                    aim1={project.aim1}
+                    aim2={project.aim2}
+                    aim3={project.aim3}
+                    process1={project.process1}
+                    process2={project.process2}
+                    process3={project.process3}
+                    process4={project.process4}
+                    code={project.code}
+                  />
                 </div>
-                <div className="flex h-[90vh] flex-row w-full">
-                  <div className="w-[25vw] border-black border-r">
-                    <Info
-                      aim1={project.aim1}
-                      aim2={project.aim2}
-                      aim3={project.aim3}
-                      process1={project.process1}
-                      process2={project.process2}
-                      process3={project.process3}
-                      process4={project.process4}
-                      code={project.code}
-                    />
-                  </div>
-                  <div className="w-[75vw]">
-                    <Display image={project.image} version={project.version} />
-                  </div>
+                <div className="w-[75vw]">
+                  <Display image={project.image} version={project.version} />
                 </div>
+              </div>
               </div>
             </div>
           );
