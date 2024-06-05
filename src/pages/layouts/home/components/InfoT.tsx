@@ -58,15 +58,8 @@ const InfoM = () => {
         <div className="flex-grow">
           <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.reviews}</h1>
-            {/* <h4 className="text-xl">{info.first}</h4>
-            <h4 className="text-xl">{info.second}</h4> */}
-            <h4 className="text-xl">emma quote</h4>
-            <h4 className="text-xl">erik quote</h4>
-            <h4 className="text-xl">erik 2nd quote</h4>
-            <h4 className="text-xl">matt quote</h4>
-            <h4 className="text-xl">help astalty get quote</h4>
-
-
+            <h4 className="text-xl">{info.first}</h4>
+            <h4 className="text-xl">{info.second}</h4>
           </div>
         </div>
 

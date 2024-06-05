@@ -58,8 +58,13 @@ const Info = () => {
         <div className="h-[40vh] flex flex-col justify-center">
           <div className="ml-[5vw]">
             <h1 className="text-black text-3xl mb-[2vh]">{info.reviews}</h1>
-            <h4 className="text-xl mb-[1vh]">{info.first}</h4>
-            <h4 className="text-xl mb-[1vh]">{info.second}</h4>
+            {/* <h4 className="text-xl mb-[1vh]">{info.first}</h4>
+            <h4 className="text-xl mb-[1vh]">{info.second}</h4> */}
+            <h4 className="text-xl">emma quote</h4>
+            <h4 className="text-xl">erik quote</h4>
+            <h4 className="text-xl">erik 2nd quote</h4>
+            <h4 className="text-xl">matt quote</h4>
+            <h4 className="text-xl">help astalty get quote</h4>
           </div>
         </div>
       </div>
