@@ -5,7 +5,8 @@ import { info } from '../../../../components/labels';
 const InfoM = () => {
   return (
     <div className="h-full w-full flex flex-col justify-between">
-      <div className="h-[80vh] w-full flex flex-col space-y-7 ml-[5vw] mt-[5vh]">
+      <div className="h-[80vh] w-full flex flex-col space-y-5 ml-[5vw] mt-[5vh]">
+
         <div className="flex-grow">
           <div className="flex flex-col justify-center ">
             <h1 className="font-bold text-black text-3xl mb-[1vh] mt-[3vh]">{info.about}</h1>
@@ -53,6 +54,7 @@ const InfoM = () => {
             </div>
           </div>
         </div>
+
         <div className="flex-grow">
           <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.reviews}</h1>
@@ -60,6 +62,7 @@ const InfoM = () => {
             <h4 className="text-xl">{info.second}</h4>
           </div>
         </div>
+
         <div className="flex-grow">
           <div className="flex flex-col justify-center">
             <h1 className="font-bold text-black text-3xl mb-[1vh]">{info.contact}</h1>
