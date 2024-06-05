@@ -8,9 +8,13 @@ export const welcome = {
   export const info = {
     about: 'About',
     websites: " Websites",
-    projects: "Projects",
+    scripts: "Scripts",
     store: "Store",
-    languages: 'Technologies',
+    data: 'Data',
+    apps: 'Apps',
+    mobile: 'Mobile',
+    ai: 'AI',
+
 
     reviews: 'Reviews',
     first: 'customer 1 - "really good" ',
