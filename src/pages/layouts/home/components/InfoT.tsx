@@ -8,8 +8,8 @@ const InfoM = () => {
       <div className="h-[80vh] w-full flex flex-col space-y-5 ml-[5vw] mt-[5vh]">
 
         <div className="flex-grow">
-          <div className="flex flex-col justify-center ">
-            <h1 className="font-bold text-black text-3xl mb-[1vh] mt-[3vh]">{info.about}</h1>
+          <div className="flex flex-col justify-center mt-[5vh]">
+            <h1 className="font-bold text-black text-3xl mb-[1vh] ">{info.about}</h1>
             <div className="flex ">
               <h4 className="text-xl mb-[1vh]">1. </h4>
               <Link href="/websites" className="text-black decoration-none hover:underline text-xl ml-[1vw]">
