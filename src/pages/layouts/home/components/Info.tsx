@@ -34,19 +34,19 @@ const Info = () => {
               </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">4. </h4>
+              <h4 className="text-xl mb-[1vh]">5. </h4>
               <Link href="/store/" className="text-black decoration-none hover:underline text-xl ml-[1vw]">
                 <h4>{info.ai}</h4>
               </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">4. </h4>
+              <h4 className="text-xl mb-[1vh]">6. </h4>
               <Link href="/store/" className="text-black decoration-none hover:underline text-xl ml-[1vw]">
                 <h4>{info.mobile}</h4>
               </Link>
             </div>
             <div className="flex">
-              <h4 className="text-xl mb-[1vh]">5. </h4>
+              <h4 className="text-xl mb-[1vh]">7. </h4>
               <Link href="/store/" className="text-black decoration-none hover:underline text-xl ml-[1vw]">
                 <h4>{info.store}</h4>
               </Link>
